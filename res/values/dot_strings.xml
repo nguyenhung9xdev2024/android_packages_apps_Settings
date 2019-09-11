@@ -18,5 +18,15 @@
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Occupied</string>
-    <string name="about_device_rom_title">BestMoon</string>
+    <string name="about_device_rom_title">BestMoonOS</string>
+
+    <!-- About phone screen, los FE version -->
+    <string name="bestmoon_version">BestMoonOS version</string>
+    <string name="bestmoon_version_default">Unknown</string>
+    <string name="keywords_bestmoon_version">BestMoonOS version, Moon version</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
 </resources>
