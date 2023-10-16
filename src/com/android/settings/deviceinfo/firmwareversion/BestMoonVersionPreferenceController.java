@@ -31,7 +31,7 @@ public class BestMoonVersionPreferenceController extends BasePreferenceControlle
     @VisibleForTesting
     static final String BESTMOON_VERSION_PROPERTY = "ro.lineage.display.version";
 
-    public LosVersionPreferenceController(Context context, String preferenceKey) {
+    public BestMoonVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 
