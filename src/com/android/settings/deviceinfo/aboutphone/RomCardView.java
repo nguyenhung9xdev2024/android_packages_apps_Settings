@@ -48,8 +48,8 @@ public class RomCardView extends AboutBaseCard {
         rlparams.addRule(RelativeLayout.ABOVE, R.id.rom_logo_id);
         rom_logo.setLayoutParams(rlparams);
         setMinimumWidth(rom_logo.getWidth());
-        String DEBUG_VERSION_TOP="v5.0";
-        String DEBUG_VERSION_BOTTOM="DEBUG";
+        String DEBUG_VERSION_TOP="v2.0";
+        String DEBUG_VERSION_BOTTOM="BestMoonOS";
         String version = SystemProperties.get("rom.modversion");
         String releaseType = SystemProperties.get("ro.dot.releasetype");
         TextView rom_title = new TextView(context);
